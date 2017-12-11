@@ -25,6 +25,33 @@ elseif($vanus > 17 and $vanus < 65){
 else{
     echo "Oled senioor, kes on väga vana";
 }
+echo '<hr>';
+// switch operaator
+$sokolaad = "Kalev";
+switch($sokolaad) {
+    case 'Kalev':
+        echo "Super sokolaad";
+        break;
+    case 'Kinder':
+        echo "Laste lemmik";
+        break;
+    default:
+        echo "Sobib kui muud pole";
+        break;
+}
+echo '<hr>';
+// ternary operaatori katse
+$pidu = "halb";
+$pidutseme = ($pidu == 'hea') ? 'lähme peole' : 'istume kodus';
+
+echo $pidutseme.'<br />';
+
+
+
+
+
+
+
 
 
 ?>
