@@ -7,6 +7,11 @@
  */
 
 
+// refreshima
+
+header("Refresh:2");
+
+
 $vanus = rand(0,100);
 if($vanus >= 0 and $vanus < 11){
     echo "Oled laps, kes on ".$vanus." aastat vana.";
