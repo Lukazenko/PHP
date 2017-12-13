@@ -13,6 +13,9 @@ for($kord = 1; $kord < 10; $kord++){
     } else {
         $varv = 'blue';
     }
+    if($varv == 'red'){
+        continue;
+    }
     echo '<font color="'.$varv.'">'.$kord.'</font><br />';
 }
 
