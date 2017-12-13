@@ -29,6 +29,16 @@ while($kord <= 10){
 }
 
 
+echo '<hr />';
+
+$kord = 11;
+
+do {
+    echo '<b>'.$kord.'</b><br /';
+    $kord++;
+}while($kord <= 10);
+
+
 
 
 
