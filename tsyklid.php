@@ -14,8 +14,18 @@ for($kord = 1; $kord < 10; $kord++){
     } else {
         $varv = 'blue';
     }
-    
+
     echo '<font color="'.$varv.'">'.$kord.'</font><br />';
+}
+
+echo '<hr />';
+
+$kord = 1;
+
+while($kord <= 10){
+    echo'<i>'.$kord.'</i><br />';
+    $kord++;
+
 }
 
 
