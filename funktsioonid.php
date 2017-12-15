@@ -6,7 +6,7 @@
  * Time: 8:47 AM
  */
 
-
+header("Refresh:5");
 
 function lootabel($ridadeArv, $veergudeArv){
     echo '<table border="1">';
@@ -38,6 +38,34 @@ function genereeriVarv(){
 
 echo genereeriVarv();
 
+
+echo '<br>';
+echo '<br>';
+echo '<br>';
+echo '<br>';
+
+
+// Ylesanne
+
+function tabelTekst($sona1, $sona2, $sona3, $sona4){
+    echo '<table border="1">';
+        for($reaNumber = 1; $reaNumber <=4; $reaNumber++){
+            echo '<tr>';
+                echo '<td>';
+                    echo ${'sona'.$reaNumber};
+                echo '</td>';
+            echo '</tr>';
+
+
+
+
+        }
+
+    echo '</table>';
+}
+
+
+tabelTekst("yks","kaks", "kolm", "neli");
 
 
 
