@@ -48,3 +48,5 @@ function otsiNumber($suvalineArv, $kindelArv){
 }
 
 otsiNumber(24234234234232, 2);
+otsiNumber(24234234234232, 4);
+otsiNumber(24234234234232, 3);
