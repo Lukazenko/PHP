@@ -11,4 +11,11 @@ echo '<pre>';
 print_r($arvud);
 echo '</pre>';
 
+for($i = 0; $i < count($arvud); $i++){
+    echo '<b>'.$arvud[$i].'</b><br />';
+}
 
+
+foreach($arvud as $arv){
+    echo '<i>'.$arv.'</i><br />';
+}

@@ -34,7 +34,7 @@ function otsiNumber($suvalineArv, $kindelArv){
     echo $kindelArv. ' esineb numbris '.$suvalineArv;
     $mitukorda = 0;
     while($suvalineArv !=0){
-        $arv = $number % 10;
+        $arv = $suvalineArv % 10;
         if($arv == $kindelArv){
             $mitukorda++;
         }

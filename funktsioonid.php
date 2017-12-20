@@ -55,10 +55,6 @@ function tabelTekst($sona1, $sona2, $sona3, $sona4){
                     echo ${'sona'.$reaNumber};
                 echo '</td>';
             echo '</tr>';
-
-
-
-
         }
 
     echo '</table>';
