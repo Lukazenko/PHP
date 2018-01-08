@@ -29,7 +29,7 @@ foreach($opilane as $voti => $vaartus){
 
 
 echo '<hr />';
-echo 'Sidestatud massiiv';
+echo '<b>'.'Sidestatud massiiv'.'<br />'.'</b>';
 //kahemõõtmeline massiiv
 
 
@@ -52,3 +52,42 @@ $opilased = array(
 echo '<pre>';
 print_r($opilased);
 echo '</pre>';
+
+echo '<hr />';
+echo '<b>'.'Foreachiga kahemõõtmelise massiivi väljastus'.'<br />'.'</b>';
+
+foreach($opilased as $opilane){
+    foreach($opilane as $voti => $vaartus){
+        echo $voti.' - '.$vaartus.'<br />';
+    }
+
+    echo '---------------'.'<br />';
+}
+
+echo '<hr />';
+echo '<b>'.'Sort funktsioon'.'<br />'.'</b>';
+
+sort($opilased);
+
+foreach($opilased as $opilane){
+    foreach($opilane as $voti => $vaartus){
+        echo $voti.' - '.$vaartus.'<br />';
+    }
+
+    echo '---------------'.'<br />';
+}
+
+
+echo '<hr />';
+
+echo '<b>'.'arsort funktsioon'.'<br />'.'</b>';
+
+
+foreach($opilased as $opilane){
+    arsort($opilased);
+    foreach($opilane as $voti => $vaartus){
+        echo $voti.' - '.$vaartus.'<br />';
+    }
+
+    echo '---------------'.'<br />';
+}
