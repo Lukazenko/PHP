@@ -11,11 +11,32 @@ echo '<pre>';
 print_r($arvud);
 echo '</pre>';
 
+echo '<hr>';
+
 for($i = 0; $i < count($arvud); $i++){
     echo '<b>'.$arvud[$i].'</b><br />';
 }
-
+echo '<hr>';
 
 foreach($arvud as $arv){
     echo '<i>'.$arv.'</i><br />';
 }
+
+echo '<hr>';
+// lisame juurde elemente
+
+$arvud[] = 6;
+
+foreach($arvud as $arv){
+    echo '<i>'.$arv.'</i><br />';
+}
+
+echo '<hr>';
+
+$arvud[0] = 6;
+
+foreach($arvud as $arv){
+    echo '<i>'.$arv.'</i><br />';
+}
+
+echo '<hr>';
