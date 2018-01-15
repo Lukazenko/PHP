@@ -14,6 +14,20 @@ class tabel
     var $pealkirjad = array();
     var $veergudeArv;
 
-    
+    // klassi meetodid
+
+    /**
+     * tabel constructor.
+     * @param array $pealkirjad
+     */
+    public function __construct(array $pealkirjad)
+    {
+        $this->pealkirjad = $pealkirjad;
+        $this->veergudeArv = count($pealkirjad);
+    }
+
+
+
+
 
 }
