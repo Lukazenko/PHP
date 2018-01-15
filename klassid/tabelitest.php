@@ -24,5 +24,12 @@ echo '<pre>';
 print_r($minuTabel);
 echo '</pre>';
 
+echo 'Prindin tabeli: ';
+
+// prindime tabeli pealkirjad ja sisu
+
+$minuTabel->prindiTabel();
+
+
 
 
