@@ -16,7 +16,7 @@ $minuTabel = new tabel(array('a','b','c'));
 
 $minuTabel->lisaRida(array(1,2,3));
 $minuTabel->lisaRida(array(4,5,6));
-$minuTabel->lisaRida(array(7,8,9));
+$minuTabel->lisaReaKirjeldusega(array('c'=>7,'a'=>8,'b'=>9));
 
 // väljastame tabel test kujul
 
