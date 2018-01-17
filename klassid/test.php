@@ -29,13 +29,33 @@ echo '</pre>';
 
 $minuTekst->prindiTekst();
 
+
 echo '<hr />';
 
 
 // loome reaalse objekti vtekst klassi abil
 
 
-$punaneTekst = new vtekst('Punane tekst');
+$varvituTekst = new vtekst('Värvitu tekst');
+
+//teostame testvaate antud objektist
+
+echo '<pre>';
+print_r($varvituTekst);
+echo '</pre>';
+
+// väljastame objekti sone väärtus
+
+$varvituTekst->prindiTekst();
+
+
+echo '<hr />';
+
+
+// loome reaalse objekti vtekst klassi abil
+
+
+$punaneTekst = new vtekst('Punane tekst', '#FF0000');
 
 //teostame testvaate antud objektist
 
